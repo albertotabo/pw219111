@@ -1,5 +1,6 @@
 body{
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
+	font-size: 16px; /*1em*/
 	margin: 0px  auto;
 	max-width: 1024px;
 
@@ -8,11 +9,70 @@ header	{
 	background: #d1e3ee;
 
 }
+header nav{
+	background: #026dc6;
+	width: 99% ;
+	margin: 0 auto;
+	border-radius: 5px;
+	padding: 2px 0px;
+}
+header nav form{
+	float: right;
+	margin-top: -35px;
+	margin-right: 15px;
+}
+header nav form input{
+	border-radius: 5px;
+}
+header nav form input[type="button"]{
+	background: green;
+	color: white;
+	border: 1px solid green;
+}
 header nav ul li{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin-right: 30px;
 	display: inline-block;
+	color: white;
+
 }
 #logo{
 	margin-top: -150px;
 }
+
+#s1{
+	margin-top: 12px;
+}
+#s1 article{
+	text-align: center;
+}
+#s1 article img{
+	border: 4px solid rgba(150,150,150,0.5);
+	width: 98%;
+
+}
+#s2 {
+	padding-top: 10px;
+	margin-bottom: 50px;
+}
+#s2 article{
+	width: 32.8%;
+	display: inline-block;
+	vertical-align: top;
+}
+#s2 article input[type="submit"]{
+	background: white;
+	color: blue;
+	border-radius: 5px;	
+	margin-left: 120px;
+}
+.unaSeccion{
+	font-size: 4.3em;
+}
+.nito{
+	font-weight: bold;
+}
+.otraSeccion{
+	font-size: 2.5em;
+}
+
