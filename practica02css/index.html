@@ -4,12 +4,13 @@
 	<title>
 		Practica 02 CCS3+HTML5
 	</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<header>
 		<img src="img/banner.png" alt="">
-		<img src="img/granthams.png" alt="">
-		<img src=" img/paint.png" alt="">
+		<img src="img/granthams.png" alt="" id="granthams">
+		<img src=" img/paint.png" alt="" id="paint">
 		<input type="search" name="buscador" placeholder="Search" id="sea1">
 		<nav>
 			<ul>
@@ -22,11 +23,13 @@
 		</nav>
 	</header>
 	<section id="s1">
-		<article>
+		<article id="s1ar1">
 			<img src="img/slide.jpg" alt="">
 		</article>
-		<article>
-			<span>We can offer...</span>
+		<article id="s1ar2">
+			<span class="colorrosa letragrande nito">
+				We can offer...
+			</span>
 			<ul>
 				<li>Highly Competitive Prices</li>
 				<li>Variable Data</li>
@@ -39,42 +42,54 @@
 			</ul>
 
 		</article>
-		<img src="img/bg_offer.png" alt="">
+		<img src="img/bg_offer.png" alt="" id="spoffer">
 	</section>
 	<section id="s2">
 		<article>
-			01772 250207 
+			<span class="colorrosa letramediana nito">01772 250207</span> 
 		</article>
 	</section>
 	<section id="s3">
-		<article>
+		<article >
 			<img src="img/cerdito.png" alt="">
+			<span class="colorrosa nito">
 			Save this Spring
+			</span>
 			<br>
 			Fabulous discounts on canva's and roll up's as well as many other offers
 			<p>
-			Find out more...
+			<span class="colorrosa"> 
+				Find out more...
+			</span>
 		</article>
-		<article>
+		<article >
 			<img src="img/hoja.png" alt="">
-			ECO Friendly
+			<span class="colorverde nito">
+				ECO Friendly
+			</span>
 			<br>
 			ECO Friendly Materials used in our production process. <br>Recycled papers and paper from Sustainable Forest (including FSC papers) are available across our range of Printing Services.
 
 		</article>
-		<article>
+		<article >
 			<img src="img/new.png" alt="">
-			Upload your file
+			<span class="colorazul nito">
+				Upload your file
+			</span>
 			<br>
 			Making it easy to order your printing today. Our upload facility enables you to send your files directly to us. Use the notes section to inform us of your order, then sit back and wait for a member of our team to contact you.
 			<p>
-				Upload Your File Now...
+				<span class="colorazul">
+					Upload Your File Now...
+				</span>
 			</p>
 		</article>
-		<article>
-			<span>Stay in touch</span>
+		<article >
+			<span class="colorrosa letramediana">
+				Stay in touch
+			</span>
 			<br>
-			Join our mailing list today
+				Join our mailing list today
 			<br>
 			<input type="email" name="email" placeholder="Email goes here" id="email">
 			<input type="button" name="btn1" value="send" id="btn1">
