@@ -35,3 +35,53 @@ header nav ul li{
 #paint{
 	float: right;
 }
+#s1{
+	margin-top: 55px;
+	height: 318px;
+}
+#s1 article{
+	display: inline-block;
+	vertical-align: top;
+}
+#s1ar1{
+	width: 60%;
+	margin-left: 30px;
+}
+#s1ar2{
+	width: 30%;
+	margin-left: 50px;
+
+}
+#s1ar2 ul{
+	list-style: none;
+	margin-left: -32px;	
+}
+#s1ar2 ul li:before{
+	content: "• ";
+	color: #ff0099;
+}
+#spoffer{
+	position: relative;
+	top: -400px;
+	margin-left: -40px;
+}
+#s2{
+	padding-top: 10px;
+
+}
+#s2 article{
+	text-align: right;
+	padding-right: 150px;
+}
+.colorrosa{
+	color: #ff0099;
+}
+.nito{
+	font-weight: bold;
+}
+.letragrande{
+	font-size: 3.5em;
+}
+.letramediana{
+	font-size: 2em;
+}
