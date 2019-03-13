@@ -8,6 +8,22 @@ body{
 
 
 }
+footer{
+	background: #3b65b7;
+	padding-top: 30px;
+	
+
+}
+footer article{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+}
+footer article input{
+	background: #3b65b7;
+	border-radius: 5px;
+
+}
 header input{
 	float: right;
 	margin-right: -240px;	
@@ -71,8 +87,28 @@ header nav ul li{
 }
 #s2 article{
 	text-align: right;
-	padding-right: 150px;
+	padding-right: 190px;
 }
+#s3 article{
+	width: 23%;
+	display: inline-block;
+	vertical-align: top;
+
+}
+#s3 article img{
+	vertical-align: middle;
+}
+#s3 article input{
+	border-radius: 5px;
+}
+#s3 article input[type="button"]{
+	background: #8bc500;	
+	color: white;
+}
+#s3ar4 {
+	padding-top: 45px;
+}
+
 .colorrosa{
 	color: #ff0099;
 }
@@ -83,5 +119,17 @@ header nav ul li{
 	font-size: 3.5em;
 }
 .letramediana{
-	font-size: 2em;
+	font-size: 1.5em;
+}
+.colorazul{
+	color: #4267b1;
+}
+.colorverde{
+	color: #8bc500;
+}
+.colorblanco{
+	color: white;
+}
+.letrapequena{
+	font-size: 0.6em;
 }
