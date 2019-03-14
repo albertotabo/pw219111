@@ -21,7 +21,7 @@ footer article{
 }
 footer article input{
 	background: #3b65b7;
-	border-radius: 5px;
+	border-radius: 10px;
 
 }
 header input{
@@ -108,7 +108,24 @@ header nav ul li{
 #s3ar4 {
 	padding-top: 45px;
 }
-
+#monitos{
+	float: right;
+	margin-right: 20px;
+	margin-top: -100px;
+	position: relative;
+}
+#tw{
+	float: right;
+	/*position: relative;*/
+	top: -100px;
+	margin-right: 10px;
+}
+#fb{
+	float: right;
+	/*position: relative;*/
+	top: -100px;
+	margin-right: 10px;
+}
 .colorrosa{
 	color: #ff0099;
 }
