@@ -1,0 +1,15 @@
+body{
+	background-color: black;
+}
+header{
+	background-color: white; 
+}
+header input{
+	float: left;
+	position: relative;
+
+}
+header img{
+	margin-left: 250px;
+	width: 70%;
+}
