@@ -1,0 +1,122 @@
+body{
+	font-size: 16px;
+	
+	margin: 0px auto;
+}
+header{
+	padding-bottom: 8px;
+	border-bottom: 3px solid black;
+}
+header nav{
+	position: relative;
+}
+header nav ul li{
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+
+}
+header img{
+	width: 2%;
+}
+
+@font-face{
+	font-family: Roboto;	
+	src:url("Roboto/Roboto-Regular.ttf");
+}
+@font-face{
+	font-family: Anton;
+	src:url("Anton/Anton-Regular.ttf");
+}
+@font-face{
+	font-family: Karla;
+	src:url("Karla/Karla-Regular.ttf");
+}
+@font-face{
+	font-family: Heebo;
+	src:url("Heebo/Heebo-Regular.ttf");
+}
+#s1{
+	margin-top: 20px;
+	width: 60%;
+	display: inline-block;
+}
+#s1 article{
+	vertical-align: top;
+}
+#s1ar1{
+	
+}
+#s1 ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 50px;
+}
+#s2{
+	width: 20%;
+	margin-top: 30px;
+	border-left: 2px solid black;
+	margin-left: 10px;
+	display: inline-block;
+}
+#s2 article{
+	vertical-align: top;
+}
+
+#Anton{
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	position: relative;
+
+}
+#lupa{
+	position: relative;
+	
+}
+#indigo{
+	/*float: top;*/
+	top: -100px;
+	position: relative;
+	left: 20px;
+}
+#planta{
+	width: 80%;
+	/*position: relative;*/
+}
+#tela{
+	width: 80%;
+}
+#persona{
+	width: 80%;
+}
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+.Karla{
+	font-family: 'Karla', sans-serif;
+}
+.Heebo{
+	font-family: 'Heebo', sans-serif;
+}
+.letramediana{
+	font-size: 20px;
+}
+.separado{
+	float: center;
+}
+.izquierda{
+	float: left;
+}
+.derecha{
+	float: right;
+}
+.colorgris{
+	color: #808080;
+}
+.puntito {
+
+}
+.letragrande{
+	font-size: 50px;
+}
