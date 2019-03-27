@@ -66,7 +66,6 @@ header img{
 
 #Anton{
 	font-family: 'Anton', sans-serif;
-	text-align: center;
 	position: relative;
 
 }
@@ -90,6 +89,19 @@ header img{
 #persona{
 	width: 80%;
 }
+#menu{
+	float: left;
+}
+#eur{
+	display: inline-block;
+	padding-right: 20px;
+	
+}
+#cart{
+	display: inline-block;
+	
+	
+}
 .roboto{
 	font-family: 'Roboto', sans-serif;
 }
@@ -102,9 +114,7 @@ header img{
 .letramediana{
 	font-size: 20px;
 }
-.separado{
-	float: center;
-}
+
 .izquierda{
 	float: left;
 }
@@ -119,4 +129,10 @@ header img{
 }
 .letragrande{
 	font-size: 50px;
+}
+.centro{
+	display: inline-block;
+	margin: 0 auto;
+	padding-right: 0 auto;
+	
 }
