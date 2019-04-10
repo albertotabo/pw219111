@@ -11,8 +11,16 @@
 	</p>
 	<button onclick="iniciarwebworker();">Iniciar</button>
 	<button onclick="pararwebworker();">Parar</button>
+	<p>Contar numeros: 
+		<div id="resultado2">
+			
+		</div>
+	</p>
+	<button onclick="iniciarwebworker2();">Iniciar</button>
+	<button onclick="pararwebworker2();">Parar</button>
 	<script type="text/javascript">
-		var worker1;
+		var worker1=undefined;
+		var worker2=undefined;
 		function iniciarwebworker(){
 			//saber si soporta el servicio
 			if(typeof(worker1)=== "undefined"){
@@ -30,6 +38,25 @@
 		function pararwebworker(){
 			worker1.terminate();
 			worker1=undefined;
+
+		}
+		function iniciarwebworker2(){
+			//saber si soporta el servicio
+			if(typeof(worker2)=== "undefined"){
+				worker2=new Worker('demoWorker.js');
+				worker2.onmessage=function(event){
+					document.getElementById('resultado2').innerHTML= event.data;
+				}
+			}
+			else
+			{
+					alert("El navegador no soporta WebWorkers");
+			}
+
+		}
+		function pararwebworker2(){
+			worker2.terminate();
+			worker2=undefined;
 
 		}
 	</script>
