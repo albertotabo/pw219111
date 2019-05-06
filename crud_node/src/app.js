@@ -12,8 +12,7 @@ const indiceRutas =require('./rutas/index');
 app.set('port', process.env.PORT || 3000);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'views'));
-//Usamos las rutas
-app.use("/",indiceRutas);
+
 
 
 //Middleware
@@ -27,6 +26,8 @@ app.use(myConnection(mysql,{
 	database: 'crudenodejsmysql'
 },'single'));
 
+//Usamos las rutas
+app.use("/",indiceRutas);
 //Activar el servidor de escucha
 
 app.listen(app.get('port'), () => {
