@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<title>Primer ejemplo con VUE</title>
+	<meta charset="UTF-8">
+	<title>Vue ejemplos</title>
 </head>
 <body>
 	<div id ="app">
 		<h1>{{ titulo }}</h1>
+<<<<<<< HEAD
 		<input type="text" v-model="nuevaFruta" @Keyup.enter="agregarFruta">
 		<button v-on:click="agregarFruta">Agregar Fruta</button>
+=======
+		<input type="text" v-model="nuevaFruta" @keyup.enter="agregarFruta">
+		<button @click="agregarFruta">Agregar fruta</button>
+>>>>>>> 25891ced0a7fc4a5b4f5f8903719472cb7a52c6e
 		<ul>
 			<li v-for="fruta of frutas">{{ fruta }}</li>
 		</ul>
 		<ul>
 			<li v-for="fruta of frutas2">
+<<<<<<< HEAD
 				<!-- {{ fruta.nombre }}	- {{ fruta.cantidad }} -->
 			   	<!-- {{ fruta.nombre }}	- {{ fruta.cantidad }} -->
 			   	<input type="number" v-model.number="fruta.cantidad">
@@ -23,11 +29,23 @@
 			</li>
 		</ul>
 		<h4>Total: {{ sumarFrutas }}</h4>
+=======
+				<!-- {{ fruta.nombre }} - {{ fruta.cantidad }}	 -->
+				<input type="number" v-model.number="fruta.cantidad">
+				{{ fruta.nombre }} 
+				<button @click="fruta.cantidad++"> + </button>
+				<button @click="fruta.cantidad--"> - </button>
+				<span v-if="fruta.cantidad == 0"> no hay en almacén</span>
+			</li>
+		</ul>
+		<h4>Total: {{ sumarFrutas }} </h4>
+>>>>>>> 25891ced0a7fc4a5b4f5f8903719472cb7a52c6e
 	</div>
-	<!-- TODOS LOS SCRIPTS DEBEN ESTAR ANTES DE QUE SE CIERRE EL BODY -->
-	<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
-
-	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-	<script type="js/primervue.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue.js"></script>
+	<script src="js/primervue.js"></script>
 </body>
 </html>
+
+
+
+
